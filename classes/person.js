@@ -25,7 +25,7 @@ class Person {
       console.log('All items in array must be Person class instances.');
       return;
     }
-    // console.log(allPeople);
+    
     personArr.forEach(function(person){
       person.introduce();
     });
